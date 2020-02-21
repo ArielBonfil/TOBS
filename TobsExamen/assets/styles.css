@@ -1,0 +1,254 @@
+*
+{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    font-size: 1.8em;
+}
+label
+{
+    font-size: 2.3em;
+    font-weight: 900;
+}
+h3
+{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
+
+/* ---------------------------------------------- */
+
+
+
+
+.botones-signup
+{
+    border-radius: 29px 29px 29px 29px;
+    width: 80%;
+    height: 2em;
+    padding-top: 3px;
+    background-color: #4AB347;
+    text-decoration:none;
+   
+}
+.centrar-texto
+{
+    text-align: center;
+    list-style-type: none;
+    
+    padding-left: 0px;
+
+}
+.titulo
+{
+    padding-top: 1.5em;
+}
+.guion::after
+{
+    content: ""; 
+    display: block;
+    margin:0.5em auto ;
+    border-bottom: 3px solid #4AB347;
+    width: 1.2em ;
+    
+   
+
+}
+.centrado-maincontainer
+{
+    padding-top: 2.4%;
+    padding-left: 10%;
+    
+}
+.maincontainer
+{
+   
+    width: 80%;
+    padding-bottom: 3em;
+    position: absolute;
+    background-color:white;
+    border-radius: 29px 29px 29px 29px;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    
+}
+
+.forma-precios 
+{
+    padding-top: 0.6em;
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    border-radius: 29px 29px 29px 29px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    width: 12em;
+    height:2.3em;
+}
+
+.monthly
+{
+    font-size: 1em;
+    color: #4AB347;
+    
+    
+   
+}
+
+.annualy
+{
+    font-size: 1em;
+    color: #4AB347;
+   
+
+}
+.tabla-precios
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.tabla-planes
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.columna
+{
+    width: 100%;
+    border-radius: 29px 29px 29px 29px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.columna li
+{
+    margin-bottom: 12px;
+    
+}
+
+.servicios
+{
+    font-weight: 300;
+    font-size:0.8em;
+}
+
+*{
+    font-size: 32px;
+    text-decoration:none;
+   
+}
+
+
+.columna:hover
+{
+   transform:  scale(1.1);
+   background-color: lightgrey;
+}
+.monthly:hover
+{
+    color: black;
+
+}
+.annualy:hover
+{
+
+    color: black;
+}
+.botones-signup:hover
+{
+    transform:  scale(1.1);
+}
+
+
+.cd-pricing-switcher {
+    text-align: center;
+  }
+  .cd-pricing-switcher .fieldset {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    border-radius: 50em;
+    border: 1px solid #225b78;
+  }
+  .cd-pricing-switcher input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+  .cd-pricing-switcher label {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+  }
+  .cd-pricing-switcher .cd-switch {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 40px;
+    width: 90px;
+    background-color: #4AB347;
+    border-radius: 50em;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    transition: transform 0.5s;
+  }
+  .cd-pricing-switcher input[type="radio"]:checked + label + .cd-switch,
+  .cd-pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .cd-switch {
+    -webkit-transform: translateX(90px);
+    -moz-transform: translateX(90px);
+    -ms-transform: translateX(90px);
+    -o-transform: translateX(90px);
+    transform: translateX(90px);
+  }
+  
+  .no-js .cd-pricing-switcher {
+    display: none;
+  }
+  
+
+
+
+
+/* --------------------------------------*/
+
+
+
+/*  Mobile/Tablet   */
+
+
+
+
+  @media (min-width: 755px)
+  {
+      *{font-size: 16px; text-decoration:none;}
+      .columna{width: 32%;}
+      .columna{margin-bottom: 2em;}
+      
+  }
